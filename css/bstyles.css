@@ -76,6 +76,16 @@ body{
   background-size: cover;
   color: #FFFFFF;
 }
+#cpitch{
+  overflow: hidden;
+  height:400px;
+  background: url(../images/trainingbg.jpg) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: #FFFFFF;
+}
 
 #atrain{
   overflow: hidden;
@@ -216,4 +226,12 @@ ul.wcontact li{
   background-color: #EEEEEE;
   padding: 20px;
   margin: 10px 0px;
+}
+.justifiedps p{
+  text-align: justify;
+}
+.mywell{
+  background-color: #EEEEEE;
+  padding: 15px;
+  border: 1px solid #AAAAAA;
 }
