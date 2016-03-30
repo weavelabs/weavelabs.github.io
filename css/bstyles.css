@@ -212,3 +212,8 @@ ul.wcontact li{
 .icons a.google { background: url(../images/social-icons/google.png) left top no-repeat; }
 
 .icons a:hover { background-position: left -34px; }
+.cform-response{
+  background-color: #EEEEEE;
+  padding: 20px;
+  margin: 10px 0px;
+}
