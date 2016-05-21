@@ -1,0 +1,36 @@
+<script src="{{ " /js/jquery-1.12.2.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " /js/bootstrap.min.js " | prepend: site.baseurl }}"></script>
+<script src="{{ " /js/jquery.smooth-scroll.min.js " | prepend: site.baseurl }}"></script>
+
+<script>
+$(document).ready(function() {
+  $("#contactForm").submit(function(e) {
+    var url = "https://weavelabssolutions.appspot.com/ct/sgzl90xs5qv5vgnnh4kmhxjc0000gn";
+    $.ajax({
+      type: "POST",
+      url: url,
+      data: $("#contactForm").serialize(),
+      beforeSend: function() {
+        $("#contactForm #cform-submit").prop('disabled', true);
+        $("#contactForm #cform-submit").val('Sending...');
+      },
+      success: function(data) {
+        $('#cFormHolder').html('<div class="cform-response">' + data + '</div>');
+      }
+    });
+
+    e.preventDefault();
+  });
+  $('.navbar-nav a').on('click', function() {
+    $.smoothScroll({
+      scrollElement: $('body'),
+      scrollTarget: $($(this).attr('href')),
+      offset: -100,
+      easing: 'swing',
+      speed: 400
+    });
+
+    return false;
+  });
+});
+</script>
