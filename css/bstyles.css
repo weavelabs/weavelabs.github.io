@@ -41,8 +41,7 @@ body{
   max-height: 350px;
 }
 .navbar-ex1-collapse{
-    background-color: #FFF;
-    border-bottom: 1px solid #EDEDED;
+    background-color: #FFFFFF;
 }
 .collapse-hide {
     display: block;
