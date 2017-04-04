@@ -6,17 +6,16 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: WeaveLabs Software Solutions | Web and Mobility Solutions
+title: WeaveLabs | We build web and mobile solutions
 email: hello@weavelabs.com
 description: > # this means to ignore newlines until "baseurl:"
-  We are a team of professional software engineers and architects,
-  who build end-to-end solutions for you. Using agile software engineering
-  principles, we work in short sprints to deliver impactful software in every
-  iteration.
+  Team of professional software engineers and architects, who build web and mobile solutions.
+  We work in short sprints to deliver impactful software in every iteration.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://weavelabs.com" # the base hostname & protocol for your site
 twitter_username: weavelabs
 github_username:  weavelabs
+og_image: https://weavelabs.com/images/logo_full.png
 
 # Build settings
 markdown: kramdown

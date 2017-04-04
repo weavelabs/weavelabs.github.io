@@ -12,36 +12,58 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 html{
   background:#fff;
 }
+.bg-light-gray {
+  background-color: #eeeeee;
+}
 body{
-  font-family: 'Open Sans', 'sans-serif';
+  font-family: 'Lato', 'Open Sans', 'sans-serif';
   font-size: 18px;
 }
 .cwrap{
-  padding-top:60px;
+  /*padding-top:60px;*/
 }
-.navbar-fixed-top {
-  background-color: #FEFEFE;
+.navbar.transparent.navbar-inverse .navbar-inner {
+  border-width: 0px;
+  -webkit-box-shadow: 0px 0px;
+  box-shadow: 0px 0px;
+  color: white;
+  background-color: rgba(0,0,0,0.0);
+  background-image: -webkit-gradient(linear, 50.00% 0.00%, 50.00% 100.00%, color-stop( 0% , rgba(0,0,0,0.00)),color-stop( 100% , rgba(0,0,0,0.00)));
+  background-image: -webkit-linear-gradient(270deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
+  background-image: linear-gradient(180deg,rgba(0,0,0,0.00) 0%,rgba(0,0,0,0.00) 100%);
 }
 .navbar-brand{
-  color: #0f3870;
+  color: white;
   font-family: 'Crushed';
   font-weight: 700;
   font-size: 32px;
 }
+.navbar-brand:focus, .navbar-brand:hover {
+  text-decoration: none;
+  color: white;
+}
+.brand-logo{
+  float: left;
+  margin: -3px 10px 0 0;
+  background-color: white;
+}
 .navbar-nav>li>a {
-    color: #0f3870;
-    padding-top: 20px;
-    padding-bottom: 25px;
+    color: white;
+    /*padding-top: 20px;
+    padding-bottom: 25px;*/
+}
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: transparent;
 }
 .navbar-nav>li>a:hover {
-    color: #0f3870;
+    color: #FEFEFE;
     /*border-bottom: 4px solid #0f3870;*/
 }
 .navbar-fixed-top .navbar-collapse, .navbar-fixed-bottom .navbar-collapse {
   max-height: 350px;
 }
 .navbar-ex1-collapse{
-    background-color: #FFFFFF;
+    /*background-color: #FFFFFF;*/
 }
 .collapse-hide {
     display: block;
@@ -69,7 +91,7 @@ body{
   overflow: hidden;
   min-height:600px;
   padding: 10px 0px;
-  background: url(../images/pitchbg2.jpg) center center no-repeat;
+  background: url(/images/pitchbg4.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -78,9 +100,8 @@ body{
 }
 #cpitch{
   overflow: hidden;
-  min-height:400px;
+  min-height:350px;
   padding: 10px 0px;
-  background: url(../images/trainingbg.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -92,7 +113,7 @@ body{
   overflow: hidden;
   min-height:600px;
   padding: 20px 0px;
-  background: url(../images/training.jpg) center center no-repeat;
+  background: url(../images/stars.jpg) center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -100,18 +121,23 @@ body{
   color: #FFFFFF;
 }
 #pitch-text-wrap{
-  margin: 20px 0px;
+  margin: 150px 0px;
+  text-align: center;
 }
 .pitch-text{
-  background-color: #0f3870;
+  /*background-color: #0f3870;*/
   opacity: 0.9;
   padding: 20px;
 }
 .maroon{
   background-color: #931829;
+  color: white;
 }
 .blue{
   background-color: #0f3870;
+}
+.nsection{
+  margin: 30px 0px;
 }
 .page-section{
   margin-top: 20px;
@@ -143,6 +169,26 @@ a.in:hover{
   background-color: #931829;
   color: white;
   padding-top: 100px;
+}
+.portfolio-item {
+    margin-bottom: 25px;
+    text-align: center;
+}
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.team-member img {
+  margin: 0 auto;
+  border: 7px solid white;
+}
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+.team-member p {
+  margin-top: 0;
 }
 
 .footer {
@@ -183,6 +229,9 @@ ul.wcontact li{
   border-top: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
 }
+.bar{
+  background-color: #FFFFFF;
+}
 .eve{
   background-color: #EEEEEE;
 }
@@ -213,7 +262,7 @@ ul.wcontact li{
 .icons a.pinterest { background: url(../images/social-icons/pinterest.png) left top no-repeat; }
 .icons a.flickr { background: url(../images/social-icons/flickr.png) left top no-repeat; }
 .icons a.vimeo { background: url(../images/social-icons/vimeo.png) left top no-repeat; }
-.icons a.reddit { background: url(../images/social-icons/reddit.png) left top no-repeat; }
+.icons a.sharethis { background: url(../images/social-icons/sharethis.png) left top no-repeat; }
 .icons a.linkedin { background: url(../images/social-icons/linkedin.png) left top no-repeat; }
 .icons a.facebook { background: url(../images/social-icons/facebook.png) left top no-repeat; }
 .icons a.email { background: url(../images/social-icons/email.png) left top no-repeat; }
