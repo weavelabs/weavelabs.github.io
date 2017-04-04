@@ -40,18 +40,14 @@
         <div class="navbar transparent" id="topnav">
   <div class="container">
     <div class="navbar-header">
-      <ul class="nav pull-left top-nav collapse-show">
-        <li>
-          <a class="white-text" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span class="sr-only">Toggle Navigation</span>
-            <span class="glyphicon glyphicon-align-justify" style="color: #333333; padding: 10px 0px"></span>
-          </a>
-        </li>
-      </ul>
+      <button aria-controls="bs-navbar" aria-expanded="false" class="collapsed navbar-toggle" data-target="#bs-wl-navbar" data-toggle="collapse" type="button">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="glyphicon glyphicon-menu-hamburger"></span>
+      </button>
       <a class="navbar-brand" href="https://weavelabs.com"><img src="/images/logoh.jpg" class="brand-logo"> Weave Labs</a>
     </div>
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
-      <ul class="nav navbar-nav navbar-right">
+    <div class="collapse navbar-collapse" id="bs-wl-navbar">
+      <ul class="nav navbar-nav navbar-right" style="text-align: right;">
         <li><a href="/services">Services</a></li>
         <li><a href="/#portfolio">Portfolio</a></li>
         <li><a href="/#team">Team</a></li>
